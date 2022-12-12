@@ -1,3 +1,4 @@
+
 /*vraag aan de gebruiker*/
 let vakjes=Number(prompt("Geef een even aantal vakjes in "));
 /*declareren variabelen en array*/
@@ -34,7 +35,6 @@ let waarde = card.values();
 
 
         /*het resultaat weergeven in HTML*/
-        resultaat = document.getElementById("card");
         resultaat.innerHTML += `
         <div class="col-lg-3 mt-3">
         <div class="flip-card"style="width: 18rem;">
